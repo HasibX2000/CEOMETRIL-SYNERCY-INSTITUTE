@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Sabo-Regular';
+  src: url('Sabo-Regular.eot');
+  src: url('Sabo-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Sabo-Regular.svg#Sabo-Regular') format('svg'),
+       url('Sabo-Regular.ttf') format('truetype'),
+       url('Sabo-Regular.woff') format('woff'),
+       url('Sabo-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Sabo-Filled';
+  src: url('Sabo-Filled.eot');
+  src: url('Sabo-Filled.eot?#iefix') format('embedded-opentype'),
+       url('Sabo-Filled.svg#Sabo-Filled') format('svg'),
+       url('Sabo-Filled.ttf') format('truetype'),
+       url('Sabo-Filled.woff') format('woff'),
+       url('Sabo-Filled.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+

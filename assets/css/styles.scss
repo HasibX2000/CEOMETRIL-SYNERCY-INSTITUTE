@@ -1,0 +1,114 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #000 !important;
+    color: #41ff00;
+}
+
+.container-fluid {
+    width: 80%;
+}
+
+.mynav {
+    padding-top: 4rem;
+
+    ul {
+        li {
+            display: inline-block;
+            margin-right: 2rem;
+
+            a {
+                color: #41ff00;
+                display: inline-block;
+                font-size: 7.2rem;
+                font-family: Sabo-Regular;
+            }
+        }
+
+        li:hover {
+            a {
+                font-family: Sabo-Filled;
+            }
+        }
+    }
+}
+
+.mid {
+    h1 {
+        font-size: 7.2rem;
+        font-weight: 700;
+        padding: 1rem 0;
+        font-family: Calibri;
+    }
+
+    .w {
+        width: 69%;
+    }
+
+    img {
+        display: inline-block;
+        margin-top: -30rem;
+        width: 27%;
+    }
+
+    p {
+        font-size: 2.4rem;
+        font-family: Calibri;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+        text-align: left;
+    }
+}
+
+.footer {
+    p {
+        font-size: 2.4rem;
+        font-family: Calibri;
+        text-transform: uppercase;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mynav ul li a {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mid img {
+        display: block !important;
+        margin-top: 0rem;
+        width: 100%;
+    }
+    .mid .w{
+        width: 100%;
+    }
+    .mid p{
+        font-size: 3.5rem;
+    }
+    .mynav ul li a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+.mynav ul li a {
+    font-size: 7px;
+}
+}
